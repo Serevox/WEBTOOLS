@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="paycheck.css">
+    <title>Paycheck</title>
+</head>
+
+<body>
+    <form action="paycheck.php" method="POST">
+        <section class="form">
+            <div class="title">Welcome</div>
+            <div class="sub-title">Let's Calculate Your Salary</div><br />
+            <div class="text-box-1">
+                <input type="text" id="full_name" class="full-name" name="emp_name" placeholder="">
+                <br>
+                <label for="full_name" class="p_holder">Employee Name</label>
+            </div>
+            <br />
+            <div class="text-box-2">
+                <input type="text" id="rate" class="salary" name="hrsworked" placeholder="">
+                <br>
+                <label for="rate" class="p_holder">Hours Worked</label>
+            </div>
+            <br />
+            <div class="type">
+                <select name="empType" id="empType" class="empType">
+                    <option value="">Choose Type</option>
+                    <option value="regular">R = 87.58/hr</option>
+                    <option value="probationary">P = 59.84/hr</option>
+                </select>
+                <br>
+                <label for="empType" class="emp-type">Type of Employee</label>
+
+            </div><br>
+            <div class="submission">
+                <input type="submit" value="Submit" name="submit" /><br>
+                <input type="reset" value="Reset" name="submit" />
+            </div>
+
+        </section>
+    </form>
+</body>
+
+</html>
