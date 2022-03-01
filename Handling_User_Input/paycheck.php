@@ -5,14 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Paycheck</title>
-    <style>
-        body {
-            background: #000;
-            color: white;
-            text-align: center;
-            
-        }
-    </style>
 </head>
 <body>
     <?php

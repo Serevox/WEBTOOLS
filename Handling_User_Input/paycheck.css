@@ -7,7 +7,6 @@ body {
     color: white;
 }
 
-
 .form {
     background-color: #15172b;
     border-radius: 20px;
@@ -16,7 +15,6 @@ body {
     padding: 20px;
     width: 140%;
   }
-  
   
   .title {
     color: #eee;
@@ -32,24 +30,17 @@ body {
     font-weight: 600;
     margin-top: 10px;
   }
-  
+  input submit {
+    width: 2%;
+  }
   input{
     padding: 12px;
     border-radius: 8px;
     width: 90%;
 
   }
+ 
+
   label{
     font-family: 'Smooch Sans', sans-serif;
-    font-size: 22px;
   }
-.submission {
-  width: 25%;
-  margin-left: 115px;
-  
-}
-.empType {
-  width: 98%;
-  border-radius: 25px;
-}
-
